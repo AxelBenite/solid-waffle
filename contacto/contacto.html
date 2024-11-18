@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <h1 class="axel">Axel Benitez</h1>
+            <img class="logo" src="../imagenes/delicias.png" alt="Delicias Kitchen">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a class="menu_link" href="../index.html">Inicio</a></li>
+            <li><a class="menu_link" href="#">Sobre mí</a></li>
+            <li><a class="menu_link" href="../receta/recepta.html">Recetas</a></li>
+            <li><a class="menu_link" href="../contacto/contacto.html">Contacto</a></li>
+            <li><a class="menu_link" href="../listado/llistat-receptes.html">Otras cosas</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form action="/search" method="GET">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="receta">Receta:</label>
+            <textarea id="receta" name="receta"></textarea>
+            <label for="dificultad">Dificultad:</label>
+            <select id="dificultad" name="dificultad">
+                <option value="facil">Fácil</option>
+                <option value="media">Media</option>
+                <option value="dificil">Difícil</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <ul>
+            <li><a class="menu_link" href="https://www.facebook.com/?locale=es_ES">Facebook</a></li>
+            <li><a class="menu_link" href="https://x.com/home?lang=es">Twitter</a></li>
+            <li><a class="menu_link" href="https://www.instagram.com">Instagram</a></li>
+            <li><a class="menu_link" href="https://es.pinterest.com">Pinterest</a></li>
+            <li><a class="menu_link" href="https://workspace.google.com/intl/es/gmail/">Email</a></li>
+            <li><a class="menu_link" href="https://rss.com/es/">RSS</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
